@@ -415,9 +415,9 @@ a { color: inherit; text-decoration: none; }
   .hero-visual { display: none; }
   .hero { background: linear-gradient(175deg, #ffe7ef 0%, #ffd8e0 50%, #ffcfc4 100%); }
   .hero-sub { opacity: 1; }
-  .script-sub { font-size: 1.5rem; }
+  .script-sub { font-size: 1.25rem; }
   .mobile-br { display: inline; }
-  .about-tagline { line-height: 0.9; }
+  .about-tagline { line-height: 0.78; }
   .about-mobile-photo {
     display: block; width: 132px; height: 132px; margin: 0 auto 22px;
     border-radius: 50%; overflow: hidden; border: 5px solid var(--cream-2); box-shadow: var(--shadow-md);
