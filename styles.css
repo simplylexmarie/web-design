@@ -407,6 +407,7 @@ a { color: inherit; text-decoration: none; }
   .nav-toggle { display: flex; z-index: 950; }
   .section, .packages, .cta-section { padding: 80px 0; }
   .cards, .pricing, .steps { grid-template-columns: 1fr; }
+  .price-card.featured { order: 0; }
   .footer-inner { grid-template-columns: 1fr; text-align: center; justify-items: center; }
   .footer-bottom { flex-direction: column; text-align: center; align-items: center; }
   .cursor-dot, .cursor-ring { display: none; }
