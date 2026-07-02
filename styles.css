@@ -298,6 +298,7 @@ a { color: inherit; text-decoration: none; }
 .about-center p:not(.about-tagline) { color: var(--text); font-size: 1.06rem; margin: 0 auto 15px; max-width: 600px; }
 .about-center em { color: var(--pink-deep); font-style: italic; }
 .about-center .btn { margin-top: 22px; }
+.about-mobile-photo { display: none; }
 
 /* About side ombre fades */
 .about::before, .about::after {
@@ -409,8 +410,12 @@ a { color: inherit; text-decoration: none; }
   .footer-inner { grid-template-columns: 1fr; text-align: center; justify-items: center; }
   .footer-bottom { flex-direction: column; text-align: center; align-items: center; }
   .cursor-dot, .cursor-ring { display: none; }
-  .badge-spin { width: 92px; height: 92px; top: 0; right: 10px; }
-  .caption-arrow, .here-arrow { display: none; }
+  .hero-visual { display: none; }
+  .about-mobile-photo {
+    display: block; width: 132px; height: 132px; margin: 0 auto 22px;
+    border-radius: 50%; overflow: hidden; border: 5px solid var(--cream-2); box-shadow: var(--shadow-md);
+  }
+  .about-mobile-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 }
 
 /* Reduced motion */
