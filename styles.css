@@ -213,7 +213,7 @@ a { color: inherit; text-decoration: none; }
 .empathy-body { max-width: 620px; margin: 40px auto 0; }
 .empathy-body p { color: var(--muted); margin-bottom: 16px; font-size: 1.06rem; }
 .empathy-body em { color: var(--pink-deep); font-style: italic; }
-.here-note { font-size: 1.9rem; color: var(--coral); display: inline-block; margin-top: 14px; }
+.here-note { font-size: 2.5rem; color: var(--coral); display: inline-block; margin-top: 14px; }
 
 /* ---------- Cards (services) ---------- */
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
