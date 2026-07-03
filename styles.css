@@ -33,9 +33,9 @@
   --maxw: 1160px;
 
   --ease: cubic-bezier(.22,1,.36,1);
-  --font-serif: "Fraunces", Georgia, serif;
+  --font-serif: "Poppins", system-ui, sans-serif;
   --font-script: "Caveat", "Segoe Script", cursive;
-  --font-sans: "Poppins", system-ui, sans-serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
